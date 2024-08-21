@@ -1,6 +1,6 @@
 from django.apps import AppConfig  # type: ignore
 
 
-class PagesConfig(AppConfig):
+class CoreConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'pages'
+    name = 'core'
